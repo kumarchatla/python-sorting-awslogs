@@ -1,0 +1,2855 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "events.amazonaws.com"
+      },
+      "eventTime": "2020-06-05T23:20:19Z",
+      "eventSource": "sts.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "events.amazonaws.com",
+      "userAgent": "events.amazonaws.com",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role",
+        "roleSessionName": "74b4eaa3a3e33dbf846eeb709b1d3171",
+        "durationSeconds": 3600
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "pk5a0avdyjjqcx8t0u",
+          "expiration": "Jun 6, 2020 12:20:19 AM",
+          "sessionToken": "IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQC58OqMtefWW3ODVHtY/FYHJG5rEC4XFnXX/Iyo6BzCwAIgdnNe1GoOUjBo1xFOmMWt/uEFQNhfJwB+GVYT7+K0S9kqpgIIsP//////////ARABGgw5MTIyNTQwNzM2MTUiDI+2cHoI64VSLUGEpCr6AZ2xFqR4t9iGlm/t+lhsSPuy7B3zACj9gKk6I3hysHnbV6n7vmSqu/aEWaYwEVqQbi2+JWSCkMu5dePuUoVPRpKwmW+qUjvcHvgkfvl1CISecn6wSAi6NeNQGTo/B5v7P9pTvT9thsQI72S+HgNbnNcoCQuPPJK+UWq9+DCwz9wbvMvNCPv8uEd2KmWFuL6kWa+SZHZ6fKs6mmIO6IpqzdLMZA4Dw21cAOTZhaWJSj8+HhlyX+IrG2biHJQC1y8JNkXCozjwCLklIdaMMf18S/amgpJ3M6kbC4QsIHtTHGg6AR3+SFj/F6QLh0H0CeMunCxIylsxVn33eWkws6br9gU6hQLDO2IMHWnARZMAtLtibqQmRnyQbFYhOBWIwvKuUlknbkXpGCQVO0MVhUcT31Y2v77nXSj/t64ojZWq7ySOYtJhPvuuy+iKijmHpgzGLTLVeNx/yJcfKS5j+CVsND6f6xacUmae9BdI9uLcezUpjUmI3qpzBf/uEXTeHVqkJTC8h/nLIyXselQGHmyqLm08bqhzGtunfiWwz/dUygLzekQ4g1AqhapRSoc3TasoR8n4HU0wDqPDv5MELOZh4EsnewbXJMvSMRfgeheF6zUl8XRcsxpu+IOnMbltcYUZ/A9sjlvmlxBr6HuZLXH8mGZFJXWm7hEYk4gTYhLDJtDPpSoUqQWRl4U="
+        },
+        "assumedRoleUser": {
+          "assumedRoleId": "as53jmqx9iy3dreql080:74b4eaa3a3e33dbf846eeb709b1d3171",
+          "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/cwe-to-ctfh-role/74b4eaa3a3e33dbf846eeb709b1d3171"
+        }
+      },
+      "requestID": "9810a4e9-8ced-4670-8d90-e407cc50ea79",
+      "eventID": "82aa34b2-6875-4565-bc8a-732a59b12ac8",
+      "resources": [
+        {
+          "accountId": "t9okbitn32j3",
+          "type": "AWS::IAM::Role",
+          "ARN": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3",
+      "sharedEventID": "5a7cb913-d797-401f-9673-574eb32c41e5"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:18Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:Lambda-bash-bobbed"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "bagful"
+        }
+      },
+      "requestID": "9631d549-d254-4cc3-8840-abe0c45494f4",
+      "eventID": "3fda904b-540f-40a5-b309-554a4d5c1b35",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:32Z",
+      "eventSource": "eks.amazonaws.com",
+      "eventName": "ListClusters",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxResults": "100"
+      },
+      "responseElements": null,
+      "requestID": "9d2b184e-2c55-4280-bfcf-867e011c099a",
+      "eventID": "1ba60e55-ef51-4118-8140-e30d927fa01e",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:25Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "functionName": "velcro-donation"
+      },
+      "responseElements": null,
+      "requestID": "0250bdf1-26b0-4972-be1d-dc4d82612bca",
+      "eventID": "7e918131-c19a-4806-9675-30f6780007a7",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:15Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "GetEventSelectors",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "TrailNotFoundException",
+      "errorMessage": "Unknown trail: arn:aws:cloudtrail:us-west-2:t9okbitn32j3:trail/retry-dropbox-preteen-wrongdoer for the user: t9okbitn32j3",
+      "requestParameters": {
+        "trailName": "retry-dropbox-preteen-wrongdoer"
+      },
+      "responseElements": null,
+      "requestID": "68c7db0b-fcb2-46de-8881-6c3cd6db69a5",
+      "eventID": "506ad365-0fdf-4dbf-99c4-0ba7e788977a",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:13Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "DescribeTrails",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "9ff4c346-a760-4591-aea9-b1e0fb709d0c",
+      "eventID": "6f7d98cb-11c1-401e-95e3-b9560565fb80",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:15Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "GetTrailStatus",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "name": "arn:aws:cloudtrail:us-west-2:2415IV1Fpm74:trail/retry-dropbox-preteen-wrongdoer"
+      },
+      "responseElements": null,
+      "requestID": "43163dfd-5f84-4a77-8853-c9528d4f616c",
+      "eventID": "2130bb36-bc07-4235-8d58-c64cfc408d99",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:13Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "ListTags",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "CloudTrailARNInvalidException",
+      "errorMessage": "AccountID in ARN is wrong, you can only access resources with AccountID t9okbitn32j3.",
+      "requestParameters": {
+        "resourceIdList": [
+          "arn:aws:cloudtrail:us-west-2:2415IV1Fpm74:trail/retry-dropbox-preteen-wrongdoer"
+        ]
+      },
+      "responseElements": null,
+      "requestID": "41f87b07-2c8e-4255-8659-6ee2b34522ba",
+      "eventID": "8fb31017-0acf-4272-9b68-8c179a7c4784",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:29Z",
+      "eventSource": "acm.amazonaws.com",
+      "eventName": "ListCertificates",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxItems": 100
+      },
+      "responseElements": {
+        "certificateSummaryList": []
+      },
+      "requestID": "d8bd9ab7-ff6a-41dd-9d19-1a14670307d3",
+      "eventID": "8a133123-44c9-41bb-80c7-1ff7c460b190",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:16Z",
+      "eventSource": "guardduty.amazonaws.com",
+      "eventName": "GetDetector",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "detectorId": "e0b6f84ad2311e890108fee93a720233"
+      },
+      "responseElements": null,
+      "requestID": "166464e1-dd10-4ff5-b5ff-5b1d9b3438fa",
+      "eventID": "d6433322-e5c4-4240-a6cb-26df65f72e0b",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:29Z",
+      "eventSource": "apigateway.amazonaws.com",
+      "eventName": "GetDomainNames",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "limit": 500,
+        "template": false
+      },
+      "responseElements": null,
+      "requestID": "4928bdcb-2ec7-4647-8185-cf855e37017a",
+      "eventID": "b12f5547-de39-4557-86f0-854b550a8f36",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:18Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:confining-snaking"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "TagForBackup"
+        }
+      },
+      "requestID": "f00836a7-7959-478e-b753-d96f81985a0b",
+      "eventID": "9df16bb6-6391-4f9d-b6d6-44c9d011068c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:22Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:curly-backlash"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "chive-unvaried"
+        }
+      },
+      "requestID": "7c91c67c-3073-4562-9060-92fb024779eb",
+      "eventID": "bf25e4f2-afc1-4466-971d-bd2a94ba6923",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:25Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:crayfish-safehouse"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "chive-unvaried"
+        }
+      },
+      "requestID": "8cd12797-9c22-403a-9b71-0ff159d2cec9",
+      "eventID": "48f60076-8609-4820-8cab-9fb4dc0b6a37",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:23Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "functionName": "flyover-unloved"
+      },
+      "responseElements": null,
+      "requestID": "db16a860-3822-45ad-9583-eb0b78a253cf",
+      "eventID": "c200a78b-9f1a-4fcf-8111-a39d2846be84",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:20Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "functionName": "flyover-unloved"
+      },
+      "responseElements": null,
+      "requestID": "bfc8cfcd-d62f-4ca3-8aaf-74efb04f1642",
+      "eventID": "39718c99-c8da-4bf8-a7ea-3bbba2d310e6",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:29Z",
+      "eventSource": "elasticfilesystem.amazonaws.com",
+      "eventName": "DescribeFileSystems",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxItems": 1000
+      },
+      "responseElements": null,
+      "requestID": "22f1f975-aa2a-45d9-ad96-4ab7e37eed42",
+      "eventID": "ab146f3a-6c1d-4190-9744-3090b5c2179e",
+      "eventType": "AwsApiCall",
+      "apiVersion": "2015-02-01",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:21Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:conduit-enrage"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "dreamt-parasitic-flypaper"
+        }
+      },
+      "requestID": "5b440764-b5d6-41e0-a57c-bd12ae35b094",
+      "eventID": "de5cdf00-199f-44d2-a246-b071886e8df9",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "events.amazonaws.com"
+      },
+      "eventTime": "2020-06-05T23:20:38Z",
+      "eventSource": "sts.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "events.amazonaws.com",
+      "userAgent": "events.amazonaws.com",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role",
+        "roleSessionName": "74b4eaa3a3e33dbf846eeb709b1d3171",
+        "durationSeconds": 3600
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "u3n35aqtmxnnci9vvcs65IZUUPMHS5VKAP72",
+          "expiration": "Jun 6, 2020 12:20:38 AM",
+          "sessionToken": "IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCICa1YY1Uw8heEstKT0QSU4rd5FtLmEx0xgq4W62C2r+VAiBtahyRRhe7IfUeZdG4huUdFSc1UlBGyqnUIjOLnUEllCqmAgiw//////////8BEAEaDDkxMjI1NDA3MzYxNSIMp7m9TVatuaZmCWwdKvoBNzDbOPV+ZyGLa0dIBxslA1CAel4Bl483XDDiyQOTppOYmhliCuTX1l18u4AmSDorC5YQhxHX/EAEUPZ59l2yZYHLIpua4DCvdJdw7aDWIFn7IhhlTtmocmjd0CpWTPCV3YeyyY9B2ikQitbpScVAWtgHg0ucabWRdd4f7J9Av0NCNB8SjjJ1dF/0fvM7YVZ1ZRjmsCRkQ9icY0Qa/CjfVIerO2kCtKrSar1q70/Fywa8qM77RgQ0uNeQi4rpQ9o+w4kf7n/eSvWHwxvoy5CavQ7S9KKDvdqAxxJ6fFEqpl5O6CAUDKK2AnGmVRqPdAXqD2DHE0ageNh6TDDGpuv2BTqGAqncgRcoJicXzigx6gRC4bBwY6gOukfTzh3z3X+RC9kmgbUcDzorRfzmgLODdrm6IMJLdN7ihcUgWTbt4pJMMVGq+US1xFExGR0SvytasdgyPDtKGFZATaJeFDPdBied4mtCGbutczcDn2Ux+SWxRF6x7P/GuaT7Ez3Z8KC7WkfWhq04vwEX5JsVaYyH+f8QeDEd/6ndVOZPmpUpxQ9Q1BAHeS6noWpxl5+rpDiw40anTCnIr+YG8uJ3VXoiAkGtbKbq5qTuIjCQnfqwAvYgBgC2T52lLe0G9DqTLznCjdgD9Wri2VhlIqrQaUq1g8q4t/9ZmXENcWEW+BLW962QR3RznK+00co="
+        },
+        "assumedRoleUser": {
+          "assumedRoleId": "as53jmqx9iy3dreql080:74b4eaa3a3e33dbf846eeb709b1d3171",
+          "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/cwe-to-ctfh-role/74b4eaa3a3e33dbf846eeb709b1d3171"
+        }
+      },
+      "requestID": "3b964678-7ea9-45fa-ae47-7769c3a7ba55",
+      "eventID": "693d7f6c-b53b-4dec-a44a-d0d513d7eb32",
+      "resources": [
+        {
+          "accountId": "t9okbitn32j3",
+          "type": "AWS::IAM::Role",
+          "ARN": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3",
+      "sharedEventID": "3db54fb0-4e62-447b-9869-784843471d90"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:32Z",
+      "eventSource": "dms.amazonaws.com",
+      "eventName": "DescribeReplicationInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxRecords": 100
+      },
+      "responseElements": null,
+      "requestID": "46cacf00-bc78-4a1d-ac36-538ad9c4f99e",
+      "eventID": "395d2385-fdbd-453e-a256-aff53bd1a2cc",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:22Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:header-lens"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "chive-unvaried"
+        }
+      },
+      "requestID": "0beea6eb-2476-4112-809f-144a9d9754e6",
+      "eventID": "6149d0bf-c447-4d75-b40e-6c1495c07c03",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:29Z",
+      "eventSource": "glacier.amazonaws.com",
+      "eventName": "ListVaults",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "accountId": "t9okbitn32j3",
+        "limit": "1000"
+      },
+      "responseElements": null,
+      "requestID": "eSghYdsFECf1nyRl2qsH-JxX8A8t2OWk3IGiE4yiCvpbv7M",
+      "eventID": "6b69ee1b-702b-4695-ad6b-1c41219c4310",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:53Z",
+      "eventSource": "glue.amazonaws.com",
+      "eventName": "GetSecurityConfigurations",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User: arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy is not authorized to perform: glue:GetSecurityConfigurations",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "ca8ffff9-58a2-4233-a20a-4430852df5eb",
+      "eventID": "a1189323-d1d1-4a8f-92d4-3144cd09a14f",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:23Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:reggae-exact"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "surprise-repulsive"
+        }
+      },
+      "requestID": "a67a191b-5fb8-48c0-9206-c0c3eac8dc32",
+      "eventID": "e3aa35fe-2033-43e3-a160-3d39530d348e",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "events.amazonaws.com"
+      },
+      "eventTime": "2020-06-05T23:20:19Z",
+      "eventSource": "sts.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "events.amazonaws.com",
+      "userAgent": "events.amazonaws.com",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role",
+        "roleSessionName": "74b4eaa3a3e33dbf846eeb709b1d3171",
+        "durationSeconds": 3600
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "6ye1bbsbeobrtmvzce4o",
+          "expiration": "Jun 6, 2020 12:20:19 AM",
+          "sessionToken": "IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIB3+/JGjOWCDN+hAaarrgex1n/swaOmoT25e6e4zwx2GAiBPHYfflUGiYNagxDv4oXd1BnmM+EBJ5k1qzpBfciR6ISqmAgiw//////////8BEAEaDDkxMjI1NDA3MzYxNSIMHD65iQ5AWsSKWLyGKvoBmw8lEpm7b8wI8ffHs4BXCZXx5UvQ4bgB7G89reuzINvBqPK+rqJCuUOZM7GMM4A1ZwqZkFyZ09Ne/KyMXzceKX53MBORUkiQes0E06rsEFeO0GaPUK2J1AxHekOjc8uaCSKOfcWnkcY7GtTF7sWQBuzi1n++bPrWn1TOivEergEokFIjrLZaPPBkmbMYhg1PUJptf3APLTUUD1NMUjLZf8AafYpx0Vx8IdPWYoO4HcQNWMvGGjx2S1kws93KeUQgkMqEoMnYCDQemZ6LM1lwiUq7UkT32sBIdEKoRFfKcQlhHqX/VEb3Is4LMAmvcIQTm4EAUQgOg1ENhTCzpuv2BTqGAlceCqxj/x2PgC+EYPSvYk05ERj76eg8diyeKWFk4yGNqConm12Ve0fx5YZqnd5bre+n/6OgcEIjPlGNokuplipZjMxs6ei6zJg69ICs7aQmDL3LOX06R1fYe2LQgt0ARXWL5KmmD5tcxrhjtNOlSRpoI9CA8aDjscwaZUfu7hIHGEqJK7redHr0qL0CRhK3W/N+zXqDguJaoFinr8sHFnGi5sPwVdty/3Oqy9cpjVtKi2L9qRvMgudpvS5u+741HBVfksgZj1dbpo5LJbnw1e3FVjcOHIYtkPdPyH+gy5X1QURnXV/6H/LbOSQgJzOsVWHqECOp/fCoq17wre9/VMe3XhUk8rE="
+        },
+        "assumedRoleUser": {
+          "assumedRoleId": "as53jmqx9iy3dreql080:74b4eaa3a3e33dbf846eeb709b1d3171",
+          "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/cwe-to-ctfh-role/74b4eaa3a3e33dbf846eeb709b1d3171"
+        }
+      },
+      "requestID": "a599fbc0-4570-4be7-a169-fc99bce5d84f",
+      "eventID": "ce051c70-b6a2-44c6-93cc-654da1a796a5",
+      "resources": [
+        {
+          "accountId": "t9okbitn32j3",
+          "type": "AWS::IAM::Role",
+          "ARN": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3",
+      "sharedEventID": "2486564c-c87b-494a-80a9-c2d2c5572fb8"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:11Z",
+      "eventSource": "kms.amazonaws.com",
+      "eventName": "ListAliases",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "99f291bc-993c-42d5-a9d9-5c5e69d7009e",
+      "eventID": "bd4a9814-82c8-4cc5-ad04-eef2a284e89d",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:26Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "baffling-patience"
+      },
+      "responseElements": null,
+      "requestID": "6549db99-5165-4887-bcb7-e7be0abc2dad",
+      "eventID": "711c323d-7349-4f56-b68e-463679db9f2b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:31Z",
+      "eventSource": "elasticmapreduce.amazonaws.com",
+      "eventName": "ListSecurityConfigurations",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": {
+        "securityConfigurations": []
+      },
+      "requestID": "aa7bb8c3-4e12-484f-81f1-081683447c32",
+      "eventID": "ad1a0e09-6075-4dd1-93d5-2ab6e88c71bd",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:27Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:scheme-emblaze"
+      },
+      "responseElements": {
+        "tags": {}
+      },
+      "requestID": "e18c5899-b9fb-43dd-aa5c-f4db9b6b6d26",
+      "eventID": "f4a24def-5ecd-4faf-962a-88d3acf4b13c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:29Z",
+      "eventSource": "apigateway.amazonaws.com",
+      "eventName": "GetRestApis",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "limit": 500,
+        "template": false
+      },
+      "responseElements": null,
+      "requestID": "2f4592c8-a965-4f9d-8e56-22ab698f1c78",
+      "eventID": "5fb6f9bf-2f98-4907-9c4b-22ae3d2b6826",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:26Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:pebbly-list"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "chive-unvaried"
+        }
+      },
+      "requestID": "5cc54286-d425-466c-a1cf-be3c860cd0c7",
+      "eventID": "efda038c-c364-406a-99bc-2640f45d0603",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:26Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:direction-percent"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "dreamt-parasitic-flypaper"
+        }
+      },
+      "requestID": "e9832430-195b-453e-81f8-ca26114a3b23",
+      "eventID": "cf7ac81d-8d14-4d6e-980c-2e247e9ae7ee",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:24Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:scheme-emblaze"
+      },
+      "responseElements": {
+        "tags": {}
+      },
+      "requestID": "44c89cd7-a4ce-431b-9514-4e3fa7186fe6",
+      "eventID": "3de6d3e0-8da0-4845-9796-2369d146257a",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:19Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "bagful-finch"
+      },
+      "responseElements": null,
+      "requestID": "cc3f8e05-fc12-4c1a-92d8-5a8813be12b8",
+      "eventID": "9506d7f2-92a4-4566-b53f-9ad47bccb50b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:28Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListLayers20181031",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxItems": 50
+      },
+      "responseElements": null,
+      "requestID": "93df5f8a-7975-4830-ba2c-0867d924221d",
+      "eventID": "393bc4c3-b85d-45a8-a017-8ebff391db42",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:17Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:thicken-agreeably"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "chive-unvaried"
+        }
+      },
+      "requestID": "b3aad2ba-d3c6-44d7-a7bf-7803dd85ab11",
+      "eventID": "1563e609-8235-4fa0-a23c-30fa9a62a29d",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:27Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "trimness-stem"
+      },
+      "responseElements": null,
+      "requestID": "d3a98624-284c-44c3-91bf-0d8ab533bf6a",
+      "eventID": "71af88aa-8f9e-455f-aade-dd7896f25481",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:12Z",
+      "eventSource": "cloudformation.amazonaws.com",
+      "eventName": "DescribeStacks",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "52.39.60.41",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "4764a00a-3b5e-4bec-bfc1-3c2d9af6bb3a",
+      "eventID": "38444218-e90b-4d29-99d7-6f6288314057",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:11Z",
+      "eventSource": "kms.amazonaws.com",
+      "eventName": "ListKeys",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "f6f9a948-5902-474d-adcb-66f0c8bf27e5",
+      "eventID": "d0bab4e6-b214-4643-a22e-5ced4ebd0850",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:12Z",
+      "eventSource": "kms.amazonaws.com",
+      "eventName": "ListResourceTags",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "keyId": "f8c365ee-a327-4b0b-8b67-c353a2f52883"
+      },
+      "responseElements": null,
+      "requestID": "cc1d495d-5358-42d4-ad32-18a1ccd34d1b",
+      "eventID": "459e5cfd-6a13-4fd2-9cd3-6f4c46a864f4",
+      "readOnly": true,
+      "resources": [
+        {
+          "accountId": "t9okbitn32j3",
+          "type": "AWS::KMS::Key",
+          "ARN": "arn:aws:kms:us-west-2:t9okbitn32j3:key/f8c365ee-a327-4b0b-8b67-c353a2f52883"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:24Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "bleep-phantom"
+      },
+      "responseElements": null,
+      "requestID": "9c6c1350-154e-4591-90d1-e003f32466ea",
+      "eventID": "84a40027-3f4c-46b3-82e9-7d54f610922b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:11Z",
+      "eventSource": "kms.amazonaws.com",
+      "eventName": "DescribeKey",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "keyId": "f8c365ee-a327-4b0b-8b67-c353a2f52883"
+      },
+      "responseElements": null,
+      "requestID": "340db296-de79-47ff-bedf-1de2f20ec8dd",
+      "eventID": "67157f6b-f7fd-42bf-9065-6299b3ed6214",
+      "readOnly": true,
+      "resources": [
+        {
+          "accountId": "t9okbitn32j3",
+          "type": "AWS::KMS::Key",
+          "ARN": "arn:aws:kms:us-west-2:t9okbitn32j3:key/f8c365ee-a327-4b0b-8b67-c353a2f52883"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:09Z",
+      "eventSource": "config.amazonaws.com",
+      "eventName": "DescribeDeliveryChannels",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "88eaa574-5e98-41b4-b080-033357cb8f18",
+      "eventID": "a2e0769b-2bc4-4139-96f5-03d54254eb1b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:09Z",
+      "eventSource": "config.amazonaws.com",
+      "eventName": "DescribeConfigurationRecorders",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "5dfba106-0d45-492e-b9c7-a95b5aa50ace",
+      "eventID": "d6809f0a-e848-42f9-9b86-82f30a7ff968",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:09Z",
+      "eventSource": "config.amazonaws.com",
+      "eventName": "DescribeConfigurationRecorderStatus",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "4502102d-88ff-4fa2-b85b-dcdc30d14abb",
+      "eventID": "17d52123-0ddf-4bf8-9416-d46e42ecb290",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:17Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "confining-snaking"
+      },
+      "responseElements": null,
+      "requestID": "32280459-5893-4e57-a418-8ddb595d7aeb",
+      "eventID": "1123ffca-19cb-4bb4-b36b-399f4637b942",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:46Z",
+      "eventSource": "cognito-identity.amazonaws.com",
+      "eventName": "ListIdentityPools",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxResults": 60
+      },
+      "responseElements": null,
+      "requestID": "48bef592-0446-47a3-8362-8e78df5a4541",
+      "eventID": "b99f120a-a03f-4148-8156-8ee316e41479",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:04Z",
+      "eventSource": "sns.amazonaws.com",
+      "eventName": "ListTagsForResource",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User: arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy is not authorized to perform: SNS:ListTagsForResource on resource: arn:aws:sns:us-west-2:t9okbitn32j3:slack-alerts",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "e0f158b7-9ad0-55c5-9a62-0fe34fb495ab",
+      "eventID": "b7bb151d-c9e3-499c-ba3f-9104177c08b9",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:04Z",
+      "eventSource": "sns.amazonaws.com",
+      "eventName": "GetTopicAttributes",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "topicArn": "arn:aws:sns:us-west-2:t9okbitn32j3:slack-alerts"
+      },
+      "responseElements": null,
+      "requestID": "105eab20-dd15-55a8-8404-fc740871a5c6",
+      "eventID": "a380b883-a8d3-41ef-adfc-144d20ea0566",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:15Z",
+      "eventSource": "guardduty.amazonaws.com",
+      "eventName": "ListDetectors",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "ba4d5259-80d3-4fdd-b3c6-4a79b748992e",
+      "eventID": "052553cf-0285-409e-bab2-7234d19c50ec",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:05Z",
+      "eventSource": "sns.amazonaws.com",
+      "eventName": "ListSubscriptions",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "nextToken": "AAFIDPUNNUYqmedp+WoWIsnweXbg2Po6Co15hYWUkiVXOQ=="
+      },
+      "responseElements": null,
+      "requestID": "41c0eed5-b2bd-5f11-b722-b98167d85f7f",
+      "eventID": "edc5d16c-6b99-4d65-8e53-f78e43c854b4",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:04Z",
+      "eventSource": "sns.amazonaws.com",
+      "eventName": "ListTopics",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "7495300d-65e5-55c8-aae4-6759b081e5a6",
+      "eventID": "63e6647c-12cf-4968-9bd6-60b423f3ae1d",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:05Z",
+      "eventSource": "sns.amazonaws.com",
+      "eventName": "ListSubscriptions",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "9dabc25c-51ad-5b89-b30d-950884c90be7",
+      "eventID": "dcc426cd-a75f-4d31-991f-5c630d6a0192",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:29Z",
+      "eventSource": "apigateway.amazonaws.com",
+      "eventName": "GetClientCertificates",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "limit": 500,
+        "template": false
+      },
+      "responseElements": null,
+      "requestID": "6b757ae8-c3a3-4eae-8131-aa630d606a69",
+      "eventID": "0f6d3b0c-7836-4be7-bd78-fd06f5f349bf",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:12Z",
+      "eventSource": "redshift.amazonaws.com",
+      "eventName": "DescribeClusters",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "52.39.60.41",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": {
+        "clusters": []
+      },
+      "requestID": "fec94ef8-2abd-45e1-a034-dd01bda6c1f7",
+      "eventID": "f2bc25fb-4a3f-4f45-9947-c2282d88e974",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:22Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "delirium-nursing"
+      },
+      "responseElements": null,
+      "requestID": "05c1df0a-3a42-4dd3-b3c9-f5e5d75d1123",
+      "eventID": "aa39b77c-b5f1-45ac-99df-be1fd61577cf",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:16Z",
+      "eventSource": "guardduty.amazonaws.com",
+      "eventName": "ListFindings",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "detectorId": "e0b6f84ad2311e890108fee93a720233",
+        "findingCriteria": {
+          "criterion": {
+            "updatedAt": {
+              "greaterThan": 1589396340514
+            }
+          }
+        },
+        "sortCriteria": {
+          "attributeName": "updatedAt",
+          "orderBy": "ASC"
+        }
+      },
+      "responseElements": null,
+      "requestID": "95800722-5dbf-47ae-a4e7-ad035f5f0010",
+      "eventID": "fc4939b3-986b-4095-9668-ed7a7c0b2196",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:19Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:cryptic-labrador"
+      },
+      "responseElements": {
+        "tags": {}
+      },
+      "requestID": "ee128beb-adb8-4843-aecc-7adc6be4afa4",
+      "eventID": "cf2c57db-72d5-4a3b-87dc-fdbd986577bf",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:13Z",
+      "eventSource": "es.amazonaws.com",
+      "eventName": "ListDomainNames",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "c0a8f560-3406-4083-92cc-bc0bb2e2d4f9",
+      "eventID": "d3e3ccf5-a785-4ebb-b5fa-f37319e43530",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "events.amazonaws.com"
+      },
+      "eventTime": "2020-06-05T23:20:19Z",
+      "eventSource": "sts.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "events.amazonaws.com",
+      "userAgent": "events.amazonaws.com",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role",
+        "roleSessionName": "74b4eaa3a3e33dbf846eeb709b1d3171",
+        "durationSeconds": 3600
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "7gx7cr2bic8ohur9vwzt",
+          "expiration": "Jun 6, 2020 12:20:19 AM",
+          "sessionToken": "IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCAiY2BR/8XvAjtYSyK981OOXKGcXPoDdo389abYMI41wIhAN25o23aijOsJ+IajX354FreLtdNhX2Z77eouvWIj0a3KqYCCLD//////////wEQARoMOTEyMjU0MDczNjE1IgyvaR3+h5IA6vivwAIq+gEL+O8hyp9ss/6fiujbRzAdT+qP8SX+EcGtJ16H5PT5tumzGsplmKgI++zI0lUIjE72+PYcWIIIMNDdpdxhc9C2cg6oXdsNgxNJ9aFfRK8TB8pvx1+Ub/7lHgp8ZbD6k3FyYMz9iR4aRsA8g4ga8y0fF6g7YuwuFSlw3Fpp227ObZQUdNsiot1mnFegPH7JJy+tcc3f285GhtJ1zC7tsPi4iq7DnBZmsyE7C2ReY5JH20Lr3NpsEn4qprc5bs4AJ/FhLMtUa/xG36Bfansbl3eUHLMeB6DPYGae945S3O9i3yxc+SYq5MIvTbK+3kjxDoI0ET5+05/Nw1yDMLOm6/YFOoQCNRHkM458bwXhNXyipVSYyYqDPyc5u1xk0eFI+1H2HSd3bLhV7jSL/2KhFDHoEoEBE0cefXHDclmAa/5AQltNb7WZdTnn31Q6HkEd7XPNzra0sj51RzN/P+DOn6GIWL0qKiM/YODnlUs3uOkmWR9o+d/+Tu0phNwVb/m+eVm1np0D6MIU7KeZSKzcf1e/SHKaBVe+c69o1PVx4ApSs6hFaR81R5Uv5+VCXS+JhlcLrDA93jRFwRZPYV/lm/rEbDPFw7ntvYZQneeuXDNcyng7hBG8r1xToWmpUJ8u/UOTUqR3+I3FLn7Jk4yhdXCA+7pMzPawDrmUeLwjRQnc0Gxg3IZ8Trc="
+        },
+        "assumedRoleUser": {
+          "assumedRoleId": "as53jmqx9iy3dreql080:74b4eaa3a3e33dbf846eeb709b1d3171",
+          "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/cwe-to-ctfh-role/74b4eaa3a3e33dbf846eeb709b1d3171"
+        }
+      },
+      "requestID": "2ce8565f-2176-4d63-b8b9-20b973548518",
+      "eventID": "90df21a1-761c-43df-b54d-d01c4322f5aa",
+      "resources": [
+        {
+          "accountId": "t9okbitn32j3",
+          "type": "AWS::IAM::Role",
+          "ARN": "arn:aws:iam::t9okbitn32j3:role/cwe-to-ctfh-role"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3",
+      "sharedEventID": "4352233d-53dd-45b3-a66b-bab0a0efa623"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:28Z",
+      "eventSource": "workspaces.amazonaws.com",
+      "eventName": "DescribeWorkspaces",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "requestContext": {
+          "awsAccountId": "t9okbitn32j3"
+        }
+      },
+      "responseElements": {
+        "workspaces": []
+      },
+      "requestID": "c5b757c3-1f71-4b58-82ed-9f905f393586",
+      "eventID": "f89aed30-1c47-4971-8281-8d94571bd71d",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:28Z",
+      "eventSource": "workspaces.amazonaws.com",
+      "eventName": "DescribeWorkspaceDirectories",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "requestContext": {
+          "awsAccountId": "t9okbitn32j3"
+        }
+      },
+      "responseElements": {
+        "directories": []
+      },
+      "requestID": "7dd9aace-4ad1-4a3b-9dae-682eb92819fd",
+      "eventID": "5bda5ee5-9958-4b2d-82ac-9f70b7b94fb1",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:16Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "functionName": "museum-woof"
+      },
+      "responseElements": null,
+      "requestID": "d96d3de1-a391-45e6-896e-7a2372a58897",
+      "eventID": "39b48b42-08cd-40d3-9569-cd4ba89feea6",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:24Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "scorecard-juggling"
+      },
+      "responseElements": null,
+      "requestID": "9b820da8-88a3-48ba-8f18-19472baef43b",
+      "eventID": "4f827937-d78b-47d4-8a85-728b41929821",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:31Z",
+      "eventSource": "secretsmanager.amazonaws.com",
+      "eventName": "ListSecrets",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxResults": 100
+      },
+      "responseElements": null,
+      "requestID": "78386ddc-4fb7-497b-99ae-65143f936b61",
+      "eventID": "211e56bb-58d0-4475-bc7f-676a5382591c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:16Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListFunctions20150331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxItems": 10000
+      },
+      "responseElements": null,
+      "requestID": "154e39c1-8805-46ea-9e66-25620bb98922",
+      "eventID": "35a34ffb-8af3-4bf9-b3b5-b5aeb689a95c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:21Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "schnapps-grueling"
+      },
+      "responseElements": null,
+      "requestID": "9a8f2bc7-a5e1-4797-bccb-6f5776dbfbe1",
+      "eventID": "86ba3882-82c7-45c7-a6df-21198c44dd40",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:46Z",
+      "eventSource": "ssm.amazonaws.com",
+      "eventName": "DescribeParameters",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "maxResults": 50
+      },
+      "responseElements": null,
+      "requestID": "ef269f2d-b6e8-470d-8c13-07be6d6545d9",
+      "eventID": "761b64f6-c511-44fd-a39e-7920dc495cf2",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:18Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "functionName": "Lambda-bash-bobbed"
+      },
+      "responseElements": null,
+      "requestID": "f2b537bf-a85a-4a01-9979-5c54e35d22b9",
+      "eventID": "b7c2ac27-6e12-4fa0-8820-b37336693487",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:20Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "GetPolicy20150331v2",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "errorCode": "ResourceNotFoundException",
+      "errorMessage": "The resource you requested does not exist.",
+      "requestParameters": {
+        "functionName": "unkind-subtype"
+      },
+      "responseElements": null,
+      "requestID": "d294eeb6-4866-499e-9239-a6172211f429",
+      "eventID": "245992b8-e248-4776-9213-97b8b054ddbd",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "by4s0n5q5d1dx5ilyspm:n2nimmxurqoy",
+        "arn": "arn:aws:sts::t9okbitn32j3:assumed-role/qn4rmp9ce61qcob12ec8/n2nimmxurqoy",
+        "accountId": "t9okbitn32j3",
+        "accessKeyId": "hpzr2ms1dfy1bbfw10p5",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "by4s0n5q5d1dx5ilyspm",
+            "arn": "arn:aws:iam::t9okbitn32j3:role/qn4rmp9ce61qcob12ec8",
+            "accountId": "t9okbitn32j3",
+            "userName": "qn4rmp9ce61qcob12ec8"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-06-05T22:54:28Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-05T23:20:20Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListTags20170331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "54.213.143.171",
+      "userAgent": "aws-sdk-java/1.11.699 Linux/4.14.77-70.59.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/11.0.7+10 java/11.0.7 groovy/2.4.15 vendor/AdoptOpenJDK",
+      "requestParameters": {
+        "resource": "arn:aws:lambda:us-west-2:t9okbitn32j3:function:shove-absolute"
+      },
+      "responseElements": {
+        "tags": {
+          "Role": "Lambda Function",
+          "Environment": "bagful-finch",
+          "Charge Code": "glance-bucktooth",
+          "Application": "chive-unvaried"
+        }
+      },
+      "requestID": "0c9d9143-5418-4cd6-9fbf-17237a3bd6a5",
+      "eventID": "acea3ffd-25d6-4eff-971d-d64762c1e5ce",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "t9okbitn32j3"
+    }
+  ]
+}
