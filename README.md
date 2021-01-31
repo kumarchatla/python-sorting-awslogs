@@ -2,7 +2,7 @@
 
 ### This project is to demonstrate to sort the JSON file using Python
  #### Steps:
- 1. There are two files python_q2 and python_q3 which gives output for question 2,3 and 4
+ 1. Run codetest.py
  2. Using code_test.json file as an input to the python script, I have sorted the logs into separate files using event name and dates for chronological order
  3. Commands to run:
        ```python codetest.py```  
