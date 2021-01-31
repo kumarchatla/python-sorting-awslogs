@@ -8,4 +8,3 @@
        ```python codetest.py```  
  4. The above command group records that share the same eventName and sort them in reverse chronological order, newest to oldest into a new JSON files ```jsonfiles```.
 
- 5. IMO Parsing the log files with line fragments or any specific field will make job easier to get the information from larger log files
