@@ -1,4 +1,4 @@
-## Code Test Python:
+## Python Sort:
 
 ### This project is to demonstrate to sort the JSON file using Python
  #### Steps:
